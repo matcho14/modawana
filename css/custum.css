@@ -1,0 +1,136 @@
+:root{
+    --first-color:#5b4834;
+    --second-color:#aaa69d;
+}
+a,a:hover{
+    text-decoration: none;
+}
+
+
+nav .nav-link:hover{
+    background-color: blue !important ;
+    color: #fff !important;
+    
+}
+nav .spec{
+    list-style: none;
+    
+}
+/*start content*/
+
+
+.content{
+    margin-top: 60px ;
+    height: 100px;
+}
+.content .post{
+    text-align: center;
+    background-color: #fff;
+    padding: 20px 22px;
+    border-bottom: 1px solid #131111;
+    margin-bottom: 30px;
+}
+.post .post-image{
+    width: 100%;
+}
+.post .post-image img{
+    width: 60%;
+    height: 300px;
+}
+.post .post-title{
+    margin-top: 15px 0px;
+}
+.post .post-details button.btn-cutum{
+background-color: rgb(197, 125, 125);
+border: 2px solid var(--first-color);
+border-radius: 20px;
+font-size: 17px;
+color: #fff;
+width: 120px;
+}
+.post .post-details button.btn-cutum:hover{
+    background-color: chartreuse;
+}
+.post .post-details .post-info span{
+margin-left: 10px ;
+}
+.post .post-details .post-info{
+    color: var(--second-color);
+}
+.post .post-details .post-info span i{
+    padding-left: 10px;
+}
+/*end content*/
+/*start side bar*/
+.categories{
+    background-color: #fff;
+    border-bottom: 1px solid #eaeaea;
+    padding: 20px 10px 10px 10px ;
+    margin-bottom: 30px;
+}
+.categories h1{
+    text-align: center;
+    border-bottom: 1px solid var(--second-color);
+    padding-bottom: 10px;
+    
+}
+.categories ul{
+    list-style: none;
+    padding-left: 0;
+}
+.categories ul li{
+    background-color: var(--first-color);
+    margin-bottom: 3px;
+    border-radius: 3px;
+    padding: 5px 0px;
+}
+.categories ul li:hover{
+    background-color: var(--second-color);
+    transition: all 0.3s ease-in-out;
+}
+.categories ul li a{
+    color: #fff;
+}
+.last-posts{
+    background-color: #fff;
+    border-bottom: 1px solid #eaeaea;
+    padding: 10px 10px;
+
+}
+.last-posts h4{
+    text-align: center;
+    padding: 10px 0;
+    
+}
+.last-posts ul{
+    list-style: none;
+     margin: 0;
+     padding: 0;
+}
+.last-posts li{
+    border-bottom: 1px solid var(--second-color);
+    margin-bottom: 10px;
+    padding: 5px 0;
+}
+.last-posts li:last-child{
+    border-bottom: 0;
+}
+.last-posts ul li a{
+    color: var(--first-color);
+
+}
+.last-posts ul li a:hover{
+    color: var(--second-color);
+    transition: all 0.3s ease-in-out ;
+}
+.last-posts ul li:first-child{
+    border-top: 1px solid var(--second-color);
+}
+/*end side bar*/
+footer{
+    background-color: #fff;
+    border-top: 1px solid #eaeaea;
+    text-align: center;
+    padding: 5px 0; 
+    top: 100%;
+}

@@ -1,0 +1,46 @@
+:root{
+    --first-color:#5b4834;
+    --second-color:#aaa69d;
+}
+a,a:hover{
+    text-decoration: none;
+}
+body{
+    background-color: #f3f3f3;
+    
+}
+#side-area{
+    background-color: var(--first-color);
+    color: #fff;
+    padding: 20px 0;
+    margin-top: 10px;
+}
+#side-area h4{
+    text-align: center;
+}
+#side-area ul{
+    list-style: none;
+    padding: 0;
+}
+#side-area ul li{
+    background-color: var(--second-color);
+    margin-bottom: 3px;
+    padding: 5px;
+}
+#side-area ul li a{
+    color: #fff;
+}
+#side-area #collapseExample li{
+    background-color: black;     
+}
+.add-cate{
+    margin-top: 30px;
+}
+.btn-custum{
+    background-color: var(--first-color);
+    color: #fff;
+    border: 1px solid var(--first-color);
+    width: 110px;
+    padding: 5px 10px;
+    margin-top: 3px;
+}
